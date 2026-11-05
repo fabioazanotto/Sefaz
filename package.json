@@ -1,0 +1,22 @@
+{
+  "name": "sefaz-notas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Teste de leitura de notas fiscais de compra (NF-e) direto da SEFAZ, para o BlackPoke Santos.",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "testar": "node scripts/testar.mjs",
+    "testar:legado": "node --openssl-legacy-provider scripts/testar.mjs",
+    "test": "vitest run",
+    "tipos": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}

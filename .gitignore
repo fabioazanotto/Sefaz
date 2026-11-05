@@ -1,0 +1,11 @@
+node_modules/
+
+# Segredos e dados fiscais nunca vão para o GitHub
+.env*
+!.env.example
+*.pfx
+*.p12
+*.pem
+.sefaz-estado.json
+.sefaz-estado.json.tmp
+.sefaz.lock
